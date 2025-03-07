@@ -15,5 +15,7 @@ class Solution(object):
 
 
 solution = Solution()
-test_case = [1, 2, 3, 4, 1]
-print(solution.containsDuplicate(test_case))
+test_case1 = [1, 2, 3, 4, 8]
+print(solution.containsDuplicate(test_case1)) # False
+test_case2 = [1, 2, 3, 4, 2]
+print(solution.containsDuplicate(test_case2)) # True
